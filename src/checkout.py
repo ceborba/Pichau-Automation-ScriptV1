@@ -25,7 +25,6 @@ class Checkout:
         chrome_options = ChromeOptions()
         chrome_options.add_argument('--disable-gpu')
         chrome_options.add_argument('--disable-extensions')
-        # chrome_options.add_argument('--blink-settings=imagesEnabled=false')
         chrome_options.add_argument('--disable-notifications')
         chrome_options.add_argument('--disable-dev-tools')
 
